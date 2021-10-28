@@ -1,6 +1,6 @@
 import React from "react";
 
-function Faqs() {
+function FAQs() {
   return (
     <div>
       <h1>FAQs</h1>
@@ -28,4 +28,4 @@ function Faqs() {
     </div>
   );
 }
-export default Faqs;
+export default FAQs;
