@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/services" component={Services} />
         <Route exact path="/faqs" component={FAQs} />
         <Route exact path="/resources" component={Resources} />
-        <Route exact path="/Referrals" component={Referrals} />
+        <Route exact path="/referrals" component={Referrals} />
         <Route exact path="/Contact" component={Contact} />
       </Container>
       <Footer />
