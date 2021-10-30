@@ -9,26 +9,60 @@ function Referrals() {
         days to schedule an appointment.
       </h2>
 
-      <form action="/Referrals" method="GET" autoComplete="on">
+      <form action="skinnyskittles@hotmail.com" method="POST" autoComplete="on">
+        <h3>
+          Child's Name{" "}
+          <span class="required" aria-hidden="true">
+            *
+          </span>
+        </h3>
         <label>
-          Child's First and Last Name:
-          <input type="text" name="child" />
+          First Name:
+          <input type="text" name="fname" />
         </label>
         <label>
-          Child's Date of Birth:
+          Last Name:
+          <input type="text" name="lname" />
+        </label>
+        <br></br>
+        <h3>
+          Child's Date of Birth{" "}
+          <span class="required" aria-hidden="true">
+            *
+          </span>
+        </h3>
+        <label>
           <input type="date" name="dob" />
         </label>
+        <br></br>
+        <h3>
+          Reason for Referral{" "}
+          <span class="required" aria-hidden="true">
+            *
+          </span>
+        </h3>
         <label>
-          Reason for Referral:
           <textarea type="text" name="referral" rows="5" cols="30" />
         </label>
+        <br></br>
+        <h3>
+          Your Name and Preferred Contact Method{" "}
+          <span class="required" aria-hidden="true">
+            *
+          </span>
+        </h3>
         <label>
-          Your First and Last Name:
-          <input type="text" name="parent" />
+          If you prefer to emailed, please provide one:
+          <textarea type="text" name="contact" rows="5" cols="30" />
         </label>
-        <p>Your preferred email or phone number</p>
+        <br></br>
+        <h3>
+          Phone{" "}
+          <span class="required" aria-hidden="true">
+            *
+          </span>
+        </h3>
         <label>
-          Your Phone Number:
           <input
             type="tel"
             name="phone"
@@ -36,10 +70,7 @@ function Referrals() {
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
           />
         </label>
-        <label>
-          Your Email Address:
-          <input type="email" name="email" />
-        </label>
+        <br></br>
         <input type="submit" value="Submit" />
       </form>
     </div>
