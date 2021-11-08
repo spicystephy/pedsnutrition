@@ -17,13 +17,27 @@ body {
   padding: 30px;
   border-radius: 5px;
 }
-
-.navbar {
+/* .nav-wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+  justify-content: center;
 }
+
+.nav-title {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav-pages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 34%;
+  justify-content: center;
+}
+
+.nav-contact {
+  display: flex;
+  justify-content: flex-end;
+} */
 
 .btn {
   display: inline-block;
