@@ -1,7 +1,25 @@
 import React from "react";
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
+import { log, iron, picky, snacks, solids } from "../resource-pdf"
 
+// function resourceRequest() {
+//   return new Promise((resolve) => setTimeout(resolve, 2000));
+// }
+
+// function LoadingButton() {
+//   const [isLoading, setLoading] = useState(false);
+
+//   useEffect(() => {
+//     if (isLoading) {
+//       simulateNetworkRequest().then(() => {
+//         setLoading(false);
+//       });
+//     }
+//   }, [isLoading]);
+// }
+
+//   const handleClick = () => setLoading(true);
 function Resources() {
   return (
     <div>
@@ -9,7 +27,7 @@ function Resources() {
         <Card.Header as="h5">Food Log</Card.Header>
         <Card.Body>
           <Card.Text>Print out and use it to keep track of your child's food intake.</Card.Text>
-          <Button variant="warning">Click Here</Button>
+          <Button variant="warning" href="/log">Click Here</Button>
         </Card.Body>
       </Card>
       <Card>
