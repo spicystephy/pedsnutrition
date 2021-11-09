@@ -19,9 +19,9 @@ function FormExample() {
 function Referrals() {
   return (
     <div>
-      <h1>Referrals</h1>
+      
       <h2>
-        Fill out the following. We will contact the client within 2 business
+        To submit a referral for a patient, complete the following form. We will contact the client within 2 business
         days to schedule an appointment.
       </h2>
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
