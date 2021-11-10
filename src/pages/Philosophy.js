@@ -23,7 +23,7 @@ function Philosophy() {
         committed to you and your child’s success.
       </p>
     </div>
-  );
+  )
 }
 
 export default Philosophy;
