@@ -2,7 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-
 function Resources() {
   return (
     <div>
@@ -18,12 +17,16 @@ function Resources() {
           <Card.Text>
             Print out and use it to keep track of your child's food intake.
           </Card.Text>
-          <Button variant="warning" variant="warning"
+          <Button
+            variant="warning"
             a
             href="assets/log.pdf"
             target="_blank"
             rel="noreferrer"
-            download>Click Here</Button>
+            download
+          >
+            Click Here
+          </Button>
         </Card.Body>
       </Card>
       <Card>
@@ -33,12 +36,16 @@ function Resources() {
             List of foods that are good sources of iron and tips to get the most
             out of the foods your child eats.
           </Card.Text>
-          <Button variant="warning" variant="warning"
+          <Button
+            variant="warning"
             a
             href="assets/iron.pdf"
             target="_blank"
             rel="noreferrer"
-            download>Click Here</Button>
+            download
+          >
+            Click Here
+          </Button>
         </Card.Body>
       </Card>
       <Card>
@@ -61,12 +68,16 @@ function Resources() {
         <Card.Header as="h5">Snacks</Card.Header>
         <Card.Body>
           <Card.Text>Ideas for nutritious and delicious snacks!</Card.Text>
-          <Button variant="warning" variant="warning"
+          <Button
+            variant="warning"
             a
             href="assets/snacks.pdf"
             target="_blank"
             rel="noreferrer"
-            download>Click Here</Button>
+            download
+          >
+            Click Here
+          </Button>
         </Card.Body>
       </Card>
       <Card>
@@ -76,16 +87,18 @@ function Resources() {
             Tips for your infant's first foods. "Setting the table" from the
             beginning leads to successful eating and feeding skills.
           </Card.Text>
-          <Button variant="warning" variant="warning"
+          <Button
+            variant="warning"
             a
             href="assets/solids.pdf"
             target="_blank"
             rel="noreferrer"
-            download>Click Here</Button>
+            download
+          >
+            Click Here
+          </Button>
         </Card.Body>
       </Card>
-       
-     
     </div>
   );
 }
